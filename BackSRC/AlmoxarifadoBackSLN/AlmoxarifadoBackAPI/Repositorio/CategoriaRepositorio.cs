@@ -1,4 +1,5 @@
 ﻿using AlmoxarifadoBackAPI.Models;
+using Microsoft.AspNetCore;
 
 namespace AlmoxarifadoBackAPI.Repositorio
 {
@@ -13,7 +14,7 @@ namespace AlmoxarifadoBackAPI.Repositorio
 
         public void Add(Categoria categoria)
         {
-            
+
             _db.Categoria.Add(categoria);
             _db.SaveChanges();
         }

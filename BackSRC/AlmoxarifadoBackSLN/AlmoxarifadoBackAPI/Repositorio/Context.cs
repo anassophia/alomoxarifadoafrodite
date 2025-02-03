@@ -1,5 +1,5 @@
 ﻿using AlmoxarifadoBackAPI.Models;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore; 
 
 namespace AlmoxarifadoBackAPI.Repositorio
 {
