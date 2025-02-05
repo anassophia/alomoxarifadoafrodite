@@ -14,6 +14,11 @@ namespace AlmoxarifadoBackAPI.Repositorio
 
         }
         public DbSet<Categoria> Categoria { get; set; }
-        
+
+
     }
+
+    
+    
+    
 }
