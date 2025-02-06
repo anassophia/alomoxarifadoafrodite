@@ -14,7 +14,8 @@ builder.Services.AddDbContext<Context>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 //builder.Services.AddScoped<CategoriaRepositorio>();
 builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
-
+//builder.Services.AddScoped<ProdutoRepositorio>();
+builder.Services.AddScoped<lProdutoRepositorio, ProdutoRepositorio>();
 
 var app = builder.Build();
 

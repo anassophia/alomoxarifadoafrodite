@@ -32,13 +32,55 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
+    "Method": "criarProduto",
+    "RelativePath": "criarProduto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "AlmoxarifadoBackAPI.DTO.ProdutoCadastroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.CategoriaController",
     "Method": "listaCategorias",
-    "RelativePath": "lista",
+    "RelativePath": "listaCategoria",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
+    "Method": "listaProduto",
+    "RelativePath": "listaProduto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
+    "Method": "listaProduto",
+    "RelativePath": "produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "AlmoxarifadoBackAPI.DTO.ProdutoDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

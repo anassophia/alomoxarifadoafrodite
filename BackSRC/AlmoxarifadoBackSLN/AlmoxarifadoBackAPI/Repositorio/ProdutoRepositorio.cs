@@ -1,8 +1,9 @@
 ﻿using AlmoxarifadoBackAPI.Models;
+using Microsoft.AspNetCore;
 
 namespace AlmoxarifadoBackAPI.Repositorio
 {
-    public class ProdutoRepositorio
+    public class ProdutoRepositorio : lProdutoRepositorio
     {
         private readonly Context _db;
 
@@ -11,16 +12,18 @@ namespace AlmoxarifadoBackAPI.Repositorio
             _db = db;
         }
 
-        public void add(Produto produto)
+        public void Add(Produto obj)
         {
 
-            _db.Produto.add(produto);
+            _db.Produto.Add(obj);
             _db.SaveChanges();
         }
 
-        public List<Produto> Getall()
+        public List<Produto> GetAll()
         {
-            return _db.Produto.tolist();
+            return _db.Produto.ToList();
         }
+
+      
     }
 }
