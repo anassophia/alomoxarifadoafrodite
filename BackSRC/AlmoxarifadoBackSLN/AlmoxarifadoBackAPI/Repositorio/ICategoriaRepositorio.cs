@@ -6,7 +6,7 @@ namespace AlmoxarifadoBackAPI.Repositorio
 {
     public interface ICategoriaRepositorio
     {
-        void Add(Categoria obj);
+        void Add(Categoria categoria);
 
         List<Categoria> GetAll();
 

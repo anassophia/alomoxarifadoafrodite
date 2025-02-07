@@ -1,5 +1,4 @@
 ﻿using AlmoxarifadoBackAPI.Models;
-using Microsoft.AspNetCore;
 
 namespace AlmoxarifadoBackAPI.Repositorio
 {
