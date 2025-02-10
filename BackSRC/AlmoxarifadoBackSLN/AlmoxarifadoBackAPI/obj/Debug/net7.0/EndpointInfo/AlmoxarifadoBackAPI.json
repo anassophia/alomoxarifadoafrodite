@@ -79,6 +79,80 @@
         }
       }
     },
+    "/listaEntrada": {
+      "get": {
+        "tags": [
+          "Entrada"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/entrada": {
+      "post": {
+        "tags": [
+          "Entrada"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntradaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntradaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntradaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/criarentrada": {
+      "post": {
+        "tags": [
+          "Entrada"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntradaCadastroDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntradaCadastroDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntradaCadastroDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/listaFornecedor": {
       "get": {
         "tags": [
@@ -227,6 +301,154 @@
         }
       }
     },
+    "/listasaida": {
+      "get": {
+        "tags": [
+          "Saida"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/saida": {
+      "post": {
+        "tags": [
+          "Saida"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaidaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaidaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaidaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/criarsaida": {
+      "post": {
+        "tags": [
+          "Saida"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaidaCadastroDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaidaCadastroDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SaidaCadastroDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/listaSecretaria": {
+      "get": {
+        "tags": [
+          "Secretaria"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/secretaria": {
+      "post": {
+        "tags": [
+          "Secretaria"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecretariaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecretariaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecretariaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/criarSecretaria": {
+      "post": {
+        "tags": [
+          "Secretaria"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecretariaCadastroDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecretariaCadastroDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SecretariaCadastroDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -283,6 +505,34 @@
         "type": "object",
         "properties": {
           "codigo": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EntradaCadastroDTO": {
+        "type": "object",
+        "properties": {
+          "idForn": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataEntrada": {
+            "type": "number",
+            "format": "double"
+          },
+          "obs": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EntradaDTO": {
+        "type": "object",
+        "properties": {
+          "idEnt": {
             "type": "integer",
             "format": "int32"
           }
@@ -362,6 +612,78 @@
         "type": "object",
         "properties": {
           "idProd": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SaidaCadastroDTO": {
+        "type": "object",
+        "properties": {
+          "idSec": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataSaida": {
+            "type": "number",
+            "format": "double"
+          },
+          "obs": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SaidaDTO": {
+        "type": "object",
+        "properties": {
+          "idSaid": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SecretariaCadastroDTO": {
+        "type": "object",
+        "properties": {
+          "nomeSec": {
+            "type": "string",
+            "nullable": true
+          },
+          "endereçoSec": {
+            "type": "string",
+            "nullable": true
+          },
+          "bairroSec": {
+            "type": "string",
+            "nullable": true
+          },
+          "cidadeSec": {
+            "type": "string",
+            "nullable": true
+          },
+          "estadoSec": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefoneSec": {
+            "type": "string",
+            "nullable": true
+          },
+          "cnpjSec": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SecretariaDTO": {
+        "type": "object",
+        "properties": {
+          "idSec": {
             "type": "integer",
             "format": "int32"
           }
