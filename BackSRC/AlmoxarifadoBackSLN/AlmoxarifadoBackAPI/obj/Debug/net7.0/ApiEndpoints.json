@@ -64,6 +64,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ItenEntradaController",
+    "Method": "criaritenentrada",
+    "RelativePath": "criaritenentrada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itenentrada",
+        "Type": "AlmoxarifadoBackAPI.DTO.ItenEntradaCadastroDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
     "Method": "criarProduto",
     "RelativePath": "criarProduto",
@@ -144,6 +160,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ItenEntradaController",
+    "Method": "listaItenEntrada",
+    "RelativePath": "itenentrada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itenentrada",
+        "Type": "AlmoxarifadoBackAPI.DTO.ItenEntradaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.CategoriaController",
     "Method": "listaCategorias",
     "RelativePath": "listaCategoria",
@@ -167,6 +199,16 @@
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.FornecedorController",
     "Method": "listaFornecedor",
     "RelativePath": "listaFornecedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ItenEntradaController",
+    "Method": "listaItenEntrada",
+    "RelativePath": "listaItenEntrada",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -227,6 +227,80 @@
         }
       }
     },
+    "/listaItenEntrada": {
+      "get": {
+        "tags": [
+          "ItenEntrada"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/itenentrada": {
+      "post": {
+        "tags": [
+          "ItenEntrada"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenEntradaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenEntradaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenEntradaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/criaritenentrada": {
+      "post": {
+        "tags": [
+          "ItenEntrada"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenEntradaCadastroDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenEntradaCadastroDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenEntradaCadastroDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/listaProduto": {
       "get": {
         "tags": [
@@ -519,8 +593,8 @@
             "format": "int32"
           },
           "dataEntrada": {
-            "type": "number",
-            "format": "double"
+            "type": "string",
+            "format": "date-time"
           },
           "obs": {
             "type": "integer",
@@ -583,6 +657,42 @@
         },
         "additionalProperties": false
       },
+      "ItenEntradaCadastroDTO": {
+        "type": "object",
+        "properties": {
+          "idEnt": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idProd": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantidade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "preco": {
+            "type": "number",
+            "format": "double"
+          },
+          "total": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ItenEntradaDTO": {
+        "type": "object",
+        "properties": {
+          "idIEnt": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "ProdutoCadastroDTO": {
         "type": "object",
         "properties": {
@@ -626,8 +736,8 @@
             "format": "int32"
           },
           "dataSaida": {
-            "type": "number",
-            "format": "double"
+            "type": "string",
+            "format": "date-time"
           },
           "obs": {
             "type": "integer",
