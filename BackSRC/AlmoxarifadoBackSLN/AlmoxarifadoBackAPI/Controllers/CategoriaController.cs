@@ -41,7 +41,10 @@ namespace AlmoxarifadoBackAPI.Controllers
             return Ok("Cadastro com Sucesso");
         }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/feature/entrada
 
 
     }

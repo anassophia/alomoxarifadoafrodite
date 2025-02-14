@@ -79,6 +79,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/listaEntrada": {
       "get": {
         "tags": [
@@ -376,6 +377,9 @@
       }
     },
     "/listaProduto": {
+=======
+    "/listaprodutos": {
+>>>>>>> upstream/feature/entrada
       "get": {
         "tags": [
           "Produto"
@@ -418,7 +422,11 @@
         }
       }
     },
+<<<<<<< HEAD
     "/criarProduto": {
+=======
+    "/criarproduto": {
+>>>>>>> upstream/feature/entrada
       "post": {
         "tags": [
           "Produto"
@@ -449,6 +457,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/listasaida": {
       "get": {
         "tags": [
@@ -597,6 +606,8 @@
         }
       }
     },
+=======
+>>>>>>> upstream/feature/entrada
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -659,6 +670,7 @@
         },
         "additionalProperties": false
       },
+<<<<<<< HEAD
       "EntradaCadastroDTO": {
         "type": "object",
         "properties": {
@@ -807,6 +819,12 @@
         "type": "object",
         "properties": {
           "descProd": {
+=======
+      "ProdutoCadastroDTO": {
+        "type": "object",
+        "properties": {
+          "descricao": {
+>>>>>>> upstream/feature/entrada
             "type": "string",
             "nullable": true
           },
@@ -818,10 +836,17 @@
             "type": "number",
             "format": "float"
           },
+<<<<<<< HEAD
           "ePermanente": {
             "type": "boolean"
           },
           "codigo": {
+=======
+          "epermanente": {
+            "type": "boolean"
+          },
+          "codigoCategoria": {
+>>>>>>> upstream/feature/entrada
             "type": "integer",
             "format": "int32"
           }
@@ -831,6 +856,7 @@
       "ProdutoDTO": {
         "type": "object",
         "properties": {
+<<<<<<< HEAD
           "idProd": {
             "type": "integer",
             "format": "int32"
@@ -904,6 +930,9 @@
         "type": "object",
         "properties": {
           "idSec": {
+=======
+          "codigo": {
+>>>>>>> upstream/feature/entrada
             "type": "integer",
             "format": "int32"
           }

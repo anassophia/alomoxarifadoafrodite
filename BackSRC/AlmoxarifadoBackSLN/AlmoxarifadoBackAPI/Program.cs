@@ -14,6 +14,7 @@ builder.Services.AddDbContext<Context>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 //builder.Services.AddScoped<CategoriaRepositorio>();
 builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
+<<<<<<< HEAD
 builder.Services.AddScoped<IEntradaRepositorio, EntradaRepositorio>();
 builder.Services.AddScoped<IFornecedorRepositorio, FornecedorRepositorio>();
 builder.Services.AddScoped<IItenEntradaRepositorio, ItenEntradaRepositorio>();
@@ -21,6 +22,10 @@ builder.Services.AddScoped<IItenSaidaRepositorio, ItenSaidaRepositorio>();
 builder.Services.AddScoped<lProdutoRepositorio, ProdutoRepositorio>();
 builder.Services.AddScoped<ISaidaRepositorio, SaidaRepositorio>();
 builder.Services.AddScoped<ISecretariaRepositorio, SecretariaRepositorio>();
+=======
+builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+
+>>>>>>> upstream/feature/entrada
 
 var app = builder.Build();
 

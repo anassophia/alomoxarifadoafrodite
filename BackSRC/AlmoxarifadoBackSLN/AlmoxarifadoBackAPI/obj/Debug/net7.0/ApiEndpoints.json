@@ -32,6 +32,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.EntradaController",
     "Method": "criarentrada",
     "RelativePath": "criarentrada",
@@ -99,6 +100,11 @@
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
     "Method": "criarProduto",
     "RelativePath": "criarProduto",
+=======
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
+    "Method": "criarProduto",
+    "RelativePath": "criarproduto",
+>>>>>>> upstream/feature/entrada
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -112,6 +118,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.SaidaController",
     "Method": "criarsaida",
     "RelativePath": "criarsaida",
@@ -208,6 +215,8 @@
     "ReturnTypes": []
   },
   {
+=======
+>>>>>>> upstream/feature/entrada
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.CategoriaController",
     "Method": "listaCategorias",
     "RelativePath": "listaCategoria",
@@ -218,6 +227,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.EntradaController",
     "Method": "listaEntrada",
     "RelativePath": "listaEntrada",
@@ -251,6 +261,11 @@
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.ItenSaidaController",
     "Method": "listaItenSaida",
     "RelativePath": "listaItenSaida",
+=======
+    "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
+    "Method": "listaProdutos",
+    "RelativePath": "listaprodutos",
+>>>>>>> upstream/feature/entrada
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -259,6 +274,7 @@
   },
   {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
+<<<<<<< HEAD
     "Method": "listaProduto",
     "RelativePath": "listaProduto",
     "HttpMethod": "GET",
@@ -290,13 +306,20 @@
   {
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.ProdutoController",
     "Method": "listaProduto",
+=======
+    "Method": "listaProdutos",
+>>>>>>> upstream/feature/entrada
     "RelativePath": "produto",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+<<<<<<< HEAD
         "Name": "produto",
+=======
+        "Name": "categoria",
+>>>>>>> upstream/feature/entrada
         "Type": "AlmoxarifadoBackAPI.DTO.ProdutoDTO",
         "IsRequired": true
       }
@@ -304,6 +327,7 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.SaidaController",
     "Method": "listasaida",
     "RelativePath": "saida",
@@ -336,6 +360,8 @@
     "ReturnTypes": []
   },
   {
+=======
+>>>>>>> upstream/feature/entrada
     "ContainingType": "AlmoxarifadoBackAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
