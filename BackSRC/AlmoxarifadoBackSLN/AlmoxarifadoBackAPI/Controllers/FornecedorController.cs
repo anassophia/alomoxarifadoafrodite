@@ -35,7 +35,7 @@ namespace AlmoxarifadoBackAPI.Controllers
 
             var novoFornecedor = new Fornecedor()
             {
-                Nome = fornecedor.Nome,
+                NomeForn = fornecedor.NomeForn,
                 Endereço = fornecedor.Endereço,
                 Bairro = fornecedor.Bairro,
                 Cidade = fornecedor.Cidade,

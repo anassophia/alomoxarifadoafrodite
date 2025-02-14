@@ -2,7 +2,7 @@
 {
     public class FornecedorCadastroDTO
     {
-        public string Nome {  get; set; }
+        public string NomeForn {  get; set; }
         public string Endereço { get; set; }
         public string Bairro { get; set; }
         public string Cidade { get; set; }

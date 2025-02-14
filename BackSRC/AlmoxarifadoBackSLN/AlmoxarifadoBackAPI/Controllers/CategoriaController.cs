@@ -35,7 +35,7 @@ namespace AlmoxarifadoBackAPI.Controllers
 
             var novaCategoria = new Categoria()
             {
-                Descricao = categoria.Descricao
+                Descrição = categoria.Descrição
             };
             _db.Add(novaCategoria);
             return Ok("Cadastro com Sucesso");

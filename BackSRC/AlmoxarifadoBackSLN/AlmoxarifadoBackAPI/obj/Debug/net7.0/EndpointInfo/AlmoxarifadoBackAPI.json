@@ -301,6 +301,80 @@
         }
       }
     },
+    "/listaItenSaida": {
+      "get": {
+        "tags": [
+          "ItenSaida"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/itenSaida": {
+      "post": {
+        "tags": [
+          "ItenSaida"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenSaidaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenSaidaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenSaidaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/criarItenSaida": {
+      "post": {
+        "tags": [
+          "ItenSaida"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenSaidaCadastroDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenSaidaCadastroDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ItenSaidaCadastroDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/listaProduto": {
       "get": {
         "tags": [
@@ -687,6 +761,42 @@
         "type": "object",
         "properties": {
           "idIEnt": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ItenSaidaCadastroDTO": {
+        "type": "object",
+        "properties": {
+          "idSaid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idProd": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantidade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "preco": {
+            "type": "number",
+            "format": "double"
+          },
+          "total": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ItenSaidaDTO": {
+        "type": "object",
+        "properties": {
+          "idISaid": {
             "type": "integer",
             "format": "int32"
           }

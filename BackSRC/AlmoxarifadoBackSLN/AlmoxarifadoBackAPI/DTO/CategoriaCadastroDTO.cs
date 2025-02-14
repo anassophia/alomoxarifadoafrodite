@@ -2,6 +2,6 @@
 {
     public class CategoriaCadastroDTO
     {
-        public string Descricao { get; set; }
+        public string Descrição { get; set; }
     }
 }
