@@ -2,6 +2,6 @@
 {
     public class ItenSaidaDTO
     {
-        public int IdISaid { get; set; }
+        public int IdItenSaida { get; set; }
     }
 }

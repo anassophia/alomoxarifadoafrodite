@@ -2,7 +2,7 @@
 {
     public class ItenEntrada
     {
-        public int IdIEnt { get; set; }
+        public int IdItenEntrada { get; set; }
         public int IdEnt { get; set; }
         public int IdProd { get; set; }
         public int quantidade { get; set; }

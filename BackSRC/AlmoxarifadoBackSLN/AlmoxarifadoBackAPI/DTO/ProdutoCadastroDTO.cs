@@ -2,10 +2,10 @@
 {
     public class ProdutoCadastroDTO
     {
-        public string DescProd { get; set; }
-        public string UnidadeMedida { get; set; }
+        public string DescricaoProd { get; set; }
+        public string UnidadeDeMedida { get; set; }
         public float EstoqueAtual { get; set; }
         public bool EPermanente { get; set; }
-        public int Codigo { get; set; }
+        public int IdCategoria { get; set; }
     }
 }

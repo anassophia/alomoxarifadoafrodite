@@ -35,11 +35,11 @@ namespace AlmoxarifadoBackAPI.Controllers
 
             var novoProduto = new Produto()
             {
-                DescProd = produto.DescProd,
-                UnidadeMedida = produto.UnidadeMedida,
+                DescricaoProd = produto.DescricaoProd,
+                UnidadeDeMedida = produto.UnidadeDeMedida,
                 EstoqueAtual = produto.EstoqueAtual,
                 EPermanente = produto.EPermanente,
-                Codigo = produto.Codigo
+                IdCategoria = produto.IdCategoria
 
             };
             _db.Add(novoProduto);

@@ -26,7 +26,7 @@ namespace AlmoxarifadoBackAPI.Controllers
         [HttpPost("/itenentrada")]
         public IActionResult listaItenEntrada(ItenEntradaDTO itenentrada)
         {
-            return Ok(_db.GetAll().Where(x => x.IdIEnt == itenentrada.IdIEnt));
+            return Ok(_db.GetAll().Where(x => x.IdItenEntrada == itenentrada.IdItenEntrada));
         }
 
         [HttpPost("/criaritenentrada")]
