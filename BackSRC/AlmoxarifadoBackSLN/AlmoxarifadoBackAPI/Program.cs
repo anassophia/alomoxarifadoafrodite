@@ -1,7 +1,11 @@
 using AlmoxarifadoBackAPI.Repositorio;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+var builder2 = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -14,18 +18,17 @@ builder.Services.AddDbContext<Context>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 //builder.Services.AddScoped<CategoriaRepositorio>();
 builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
-<<<<<<< HEAD
+
 builder.Services.AddScoped<IEntradaRepositorio, EntradaRepositorio>();
 builder.Services.AddScoped<IFornecedorRepositorio, FornecedorRepositorio>();
 builder.Services.AddScoped<IItenEntradaRepositorio, ItenEntradaRepositorio>();
 builder.Services.AddScoped<IItenSaidaRepositorio, ItenSaidaRepositorio>();
-builder.Services.AddScoped<lProdutoRepositorio, ProdutoRepositorio>();
+builder.Services.AddScoped<IProdutoRepositorio,ProdutoRepositorio >();
 builder.Services.AddScoped<ISaidaRepositorio, SaidaRepositorio>();
 builder.Services.AddScoped<ISecretariaRepositorio, SecretariaRepositorio>();
-=======
-builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
 
->>>>>>> upstream/feature/entrada
+
+
 
 var app = builder.Build();
 
@@ -43,3 +46,42 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+// Configuração do JWT
+var jwtSettings = builder2.Configuration.GetSection("JwtSettings");
+var key = Encoding.UTF8.GetBytes(jwtSettings["Secret"]);
+
+builder2.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = true,
+        ValidIssuer = jwtSettings["Issuer"],
+        ValidateAudience = true,
+        ValidAudience = jwtSettings["Audience"],
+        ValidateLifetime = true,
+        ClockSkew = TimeSpan.Zero
+    };
+});
+
+builder2.Services.AddAuthorization();
+builder2.Services.AddControllers();
+
+var app2 = builder2.Build();
+
+app2.UseAuthentication(); // Middleware de autenticação
+app2.UseAuthorization(); // Middleware de autorização
+
+app2.MapControllers();
+
+app2.Run();

@@ -4,7 +4,7 @@
     {
         public int IdForn { get; set; }
         public string NomeForn { get; set; }
-        public string EndereçoForn { get; set; }
+        public string Endereço { get; set; }
         public string Bairro { get; set; }
         public string Cidade { get; set; }
         public string Estado { get; set; }

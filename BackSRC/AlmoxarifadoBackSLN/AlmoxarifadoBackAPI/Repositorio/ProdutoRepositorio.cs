@@ -1,16 +1,11 @@
 ﻿using AlmoxarifadoBackAPI.Models;
-<<<<<<< HEAD
+
 using Microsoft.AspNetCore;
 
 namespace AlmoxarifadoBackAPI.Repositorio
 {
-    public class ProdutoRepositorio : lProdutoRepositorio
-=======
-
-namespace AlmoxarifadoBackAPI.Repositorio
-{
     public class ProdutoRepositorio : IProdutoRepositorio
->>>>>>> upstream/feature/entrada
+
     {
         private readonly Context _db;
 
@@ -19,21 +14,6 @@ namespace AlmoxarifadoBackAPI.Repositorio
             _db = db;
         }
 
-<<<<<<< HEAD
-        public void Add(Produto produto)
-        {
-
-            _db.Produto.Add(produto);
-            _db.SaveChanges();
-        }
-
-        public List<Produto> GetAll()
-        {
-            return _db.Produto.ToList();
-        }
-
-      
-=======
         public void Add(Produto obj)
         {
             
@@ -45,6 +25,6 @@ namespace AlmoxarifadoBackAPI.Repositorio
           return _db.Produto.ToList();
         }
 
->>>>>>> upstream/feature/entrada
+
     }
 }

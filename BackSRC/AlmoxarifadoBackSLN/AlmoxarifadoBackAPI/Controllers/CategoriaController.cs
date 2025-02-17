@@ -1,6 +1,7 @@
 ﻿using AlmoxarifadoBackAPI.DTO;
 using AlmoxarifadoBackAPI.Models;
 using AlmoxarifadoBackAPI.Repositorio;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace AlmoxarifadoBackAPI.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+    [Authorize]
     public class CategoriaController : ControllerBase
     {
         private readonly ICategoriaRepositorio _db;
@@ -41,10 +43,6 @@ namespace AlmoxarifadoBackAPI.Controllers
             return Ok("Cadastro com Sucesso");
         }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/feature/entrada
 
 
     }

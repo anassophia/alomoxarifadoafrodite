@@ -26,19 +26,18 @@ namespace AlmoxarifadoBackAPI.Repositorio
             modelBuilder.Entity<Entrada>().HasKey(c => c.IdEnt);
             modelBuilder.Entity<Entrada>().Property(c => c.IdEnt).ValueGeneratedOnAdd();
 
-            modelBuilder.Entity<Saida>().HasKey(c => c.IdSaid);
-            modelBuilder.Entity<Saida>().Property(c => c.IdSaid).ValueGeneratedOnAdd();
+            modelBuilder.Entity<Saida>().HasKey(c => c.IdSaida);
+            modelBuilder.Entity<Saida>().Property(c => c.IdSaida).ValueGeneratedOnAdd();
 
-            modelBuilder.Entity<ItenEntrada>().HasKey(c => c.IdIEnt);
-            modelBuilder.Entity<ItenEntrada>().Property(c => c.IdIEnt).ValueGeneratedOnAdd();
+            modelBuilder.Entity<ItenEntrada>().HasKey(c => c.IdItenEntrada);
+            modelBuilder.Entity<ItenEntrada>().Property(c => c.IdItenEntrada).ValueGeneratedOnAdd();
 
-            modelBuilder.Entity<ItenSaida>().HasKey(c => c.IdISaid);
-            modelBuilder.Entity<ItenSaida>().Property(c => c.IdISaid).ValueGeneratedOnAdd();
+            modelBuilder.Entity<ItenSaida>().HasKey(c => c.IdItenSaida);
+            modelBuilder.Entity<ItenSaida>().Property(c => c.IdItenSaida).ValueGeneratedOnAdd();
 
         }
         public DbSet<Categoria> Categoria { get; set; }
         public DbSet<Produto> Produto { get; set; }
-<<<<<<< HEAD
         public DbSet<Fornecedor> Fornecedor { get; set; }
         public DbSet<Secretaria> Secretaria { get; set; }
         public DbSet<Entrada> Entrada { get; set; }
@@ -46,10 +45,6 @@ namespace AlmoxarifadoBackAPI.Repositorio
         public DbSet<ItenEntrada> ItenEntrada { get; set; }
         public DbSet<ItenSaida> ItenSaida { get; set; }
 
-
-=======
-        
->>>>>>> upstream/feature/entrada
     }
 
     

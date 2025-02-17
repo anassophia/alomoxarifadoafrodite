@@ -226,3 +226,4 @@ C:\Users\manha.cetafest\Documents\GitHub\alomoxarifadoafrodite\BackSRC\Almoxarif
 C:\Users\manha.cetafest\Documents\GitHub\alomoxarifadoafrodite\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\obj\Debug\net7.0\staticwebassets\msbuild.AlmoxarifadoBackAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\manha.cetafest\Documents\GitHub\alomoxarifadoafrodite\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
 C:\Users\manha.cetafest\Documents\GitHub\alomoxarifadoafrodite\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\obj\Debug\net7.0\Almoxari.BC50AC8F.Up2Date
+C:\Users\manha.cetafest\Documents\GitHub\alomoxarifadoafrodite\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlmoxarifadoBackAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c35cc75a6e3123e64d2b8888a0126d63a91f65b6")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66fb00a2b2e5637dba2b3552170035dc16703bb3")]
->>>>>>> upstream/feature/entrada
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d754cef141897a7e722c7583eb406828678ce6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlmoxarifadoBackAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlmoxarifadoBackAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
