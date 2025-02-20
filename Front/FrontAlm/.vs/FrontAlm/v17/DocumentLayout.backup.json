@@ -42,9 +42,9 @@
               "Title": "_Layout - Categoria.cshtml",
               "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Views\\Shared\\_Layout - Categoria.cshtml",
               "RelativeDocumentMoniker": "FrontAlm\\Views\\Shared\\_Layout - Categoria.cshtml",
-              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Views\\Shared\\_Layout - Categoria.cshtml",
-              "RelativeToolTip": "FrontAlm\\Views\\Shared\\_Layout - Categoria.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Views\\Shared\\_Layout - Categoria.cshtml*",
+              "RelativeToolTip": "FrontAlm\\Views\\Shared\\_Layout - Categoria.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-20T13:29:22.455Z",
               "EditorCaption": ""
@@ -70,7 +70,7 @@
               "RelativeDocumentMoniker": "FrontAlm\\Views\\Categoria\\Index.cshtml",
               "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Views\\Categoria\\Index.cshtml",
               "RelativeToolTip": "FrontAlm\\Views\\Categoria\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-20T13:27:36.629Z",
               "EditorCaption": ""
@@ -85,8 +85,7 @@
               "RelativeToolTip": "FrontAlm\\Controllers\\CategoriaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:26:17.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:26:17.957Z"
             },
             {
               "$type": "Document",
@@ -98,8 +97,7 @@
               "RelativeToolTip": "FrontAlm\\wwwroot\\css\\Categoria.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-20T13:25:12.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:25:12.817Z"
             },
             {
               "$type": "Document",
@@ -111,8 +109,7 @@
               "RelativeToolTip": "FrontAlm\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-20T13:24:26.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:24:26.668Z"
             }
           ]
         }
