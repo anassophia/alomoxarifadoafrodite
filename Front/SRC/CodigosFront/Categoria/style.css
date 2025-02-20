@@ -97,7 +97,8 @@ td {
     gap : 1rem;
 }
 
-@media (max-width : 768px){
+@media (max-width : 768px)
+{
     .container{
         width: 82%;
     }
