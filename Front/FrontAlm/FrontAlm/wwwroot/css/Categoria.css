@@ -1,0 +1,104 @@
+﻿body {
+    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.containerCat {
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1Cat {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.container2Cat {
+    width: 100%;
+    height: 70%;
+}
+
+.container3Cat {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCat {
+    padding: 0.3rem;
+    width: 100px;
+    background-color: seagreen;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight: bolder;
+}
+
+.BtnAzulColorCat {
+    background-color: cyan !important;
+}
+
+thead {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.TableContainerCat {
+    width: 100%;
+    font-size: 15pt !important;
+}
+
+    .TableContainerCat td, th {
+        border: 1px solid black;
+    }
+
+td {
+    background-color: white;
+    color: black;
+}
+
+.icone1Cat {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.icone2Cat {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.iconesContainerCat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+}
+
+@media (max-width : 768px) {
+    .containerCat {
+        width: 82%;
+    }
+}
