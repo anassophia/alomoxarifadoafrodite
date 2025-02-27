@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\FrontAlm",
-    "\\FrontAlm\\Controllers",
+    "\\FrontAlm\\Views",
+    "\\FrontAlm\\Views\\Shared",
     "\\FrontAlm\\wwwroot"
   ],
-  "SelectedNode": "\\FrontAlm.sln",
+  "SelectedNode": "\\FrontAlm\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
