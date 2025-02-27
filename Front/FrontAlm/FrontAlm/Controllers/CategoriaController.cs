@@ -7,8 +7,8 @@ namespace FrontAlmoxarifado.Controllers
         public IActionResult Index()
         {
             var url = "";
-            List <CategoriaDTO> categoria = new List<CategoriaDTO> ();
 
+            List <CategoriaDTO> categoria = new List<CategoriaDTO> ();
             using HttpClient client = new HttpClient();
             try
             {

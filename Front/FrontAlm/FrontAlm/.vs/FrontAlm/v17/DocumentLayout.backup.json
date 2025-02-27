@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\",
+  "WorkspaceRootPath": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Controllers\\CategoriaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Controllers\\CategoriaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CategoriaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\Categoria.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\Categoria.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\css\\Categoria.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Categoria.css",
-              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\Categoria.css",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\Categoria.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Categoria.css",
-              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\Categoria.css",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\wwwroot\\css\\Categoria.css",
               "RelativeToolTip": "wwwroot\\css\\Categoria.css",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -54,11 +54,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Controllers\\CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafrodite\\Front\\FrontAlm\\FrontAlm\\Controllers\\CategoriaController.cs",
               "RelativeToolTip": "Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T17:17:04.758Z",
               "EditorCaption": ""
